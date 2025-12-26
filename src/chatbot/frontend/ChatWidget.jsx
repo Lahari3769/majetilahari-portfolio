@@ -13,7 +13,7 @@ export default function ChatWidget() {
   const imgErrorRef = useRef(false);
 
   const toggleChat = () => {
-    setShowPopup(false); // Hide popup when chat is opened
+    setShowPopup(false);
     setOpen((prev) => {
       const next = !prev;
 
@@ -21,7 +21,8 @@ export default function ChatWidget() {
         setMessages([
           {
             role: "assistant",
-            text: "Hey! 👋 I'm Lahari's digital sidekick. I know all about her latest projects and creative journey. Want a quick tour or looking for something specific?"
+            text:
+              "Hey! I'm Lahari's AI assistant. I can help you explore her projects, skills, and experience. What would you like to know?"
           }
         ]);
         setHasWelcomed(true);
@@ -46,35 +47,33 @@ export default function ChatWidget() {
 
     try {
       const API_BASE = import.meta.env.VITE_CHATBOT_URL;
-      console.log("CHAT API:", import.meta.env.VITE_CHATBOT_URL);
+
       const res = await fetch(`${API_BASE}/chat/stream`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json"
+        },
         body: JSON.stringify({ question })
       });
 
-      const reader = res.body.getReader();
-      const decoder = new TextDecoder();
-      let fullResponse = "";
-
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-
-        const chunk = decoder.decode(value, { stream: true });
-        const cleaned = chunk.replace(/^data:/gm, "").trim();
-        fullResponse += cleaned + " ";
+      if (!res.ok) {
+        throw new Error("API error");
       }
+
+      const data = await res.json();
 
       setMessages((prev) => {
         const updated = [...prev];
         updated[updated.length - 1] = {
           role: "assistant",
-          text: fullResponse.trim() || "This information is not available in the portfolio."
+          text:
+            data.answer ||
+            "This information is not available in the portfolio."
         };
         return updated;
       });
-    } catch {
+    } catch (error) {
+      console.error("Chat error:", error);
       setMessages((prev) => {
         const updated = [...prev];
         updated[updated.length - 1] = {
@@ -90,14 +89,12 @@ export default function ChatWidget() {
 
   return (
     <>
-      {/* Popup Text */}
       {showPopup && (
         <div className="chat-popup">
-          🚀 Explore Lahari's work with me!
+          Explore Lahari's work with me
         </div>
       )}
 
-      {/* Floating Chat Button */}
       <div className="chat-button" onClick={toggleChat}>
         {!imgErrorRef.current ? (
           <img
@@ -106,11 +103,10 @@ export default function ChatWidget() {
             onError={() => (imgErrorRef.current = true)}
           />
         ) : (
-          <span>🤖</span>
+          <span>AI</span>
         )}
       </div>
 
-      {/* Chat Window */}
       {open && (
         <div className="chat-window">
           <div className="chat-header">
