@@ -28,4 +28,3 @@ dist-ssr
 .venv
 venv
 src/chatbot/backend
-src/chatbot/frontend/chat.css
