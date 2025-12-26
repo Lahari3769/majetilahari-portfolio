@@ -1,0 +1,54 @@
+/* === GLOBAL SECTION STYLING === */
+.section {
+ min-height: 100vh;
+  padding: 80px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  background: linear-gradient(-45deg, #fca311, #14213d, #e5e5e5, #000);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+ 
+/* === ANIMATED GRADIENT === */
+@keyframes gradientBG {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+ 
+/* === GLASSMORPHIC CONTENT BOX === */
+.section-content {
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+ 
+/* === HEADINGS === */
+.section-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+ 
+/* === PARAGRAPH TEXT === */
+.section-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+ 
+/* === HIGHLIGHT TEXT === */
+.highlight {
+  background-color: #ffe8c2;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #1a1a1a;
+}

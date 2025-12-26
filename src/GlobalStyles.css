@@ -1,0 +1,770 @@
+/* === Section Background === */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+   scroll-behavior: auto !important;
+}
+
+
+.glow-circle {
+   display: inline-block;
+   padding: 14px;
+   border-radius: 50%;
+   border: 5px solid white; 
+   background:
+      radial-gradient(circle at top, #AB2F9A 0%, transparent 50%),
+      radial-gradient(circle at bottom, #AB2F9A 0%, transparent 50%),
+      radial-gradient(circle at left, #07FAEE 0%, transparent 50%),
+      radial-gradient(circle at right, #07FAEE 0%, transparent 50%);
+   box-shadow:
+      0 -10px 40px #AB2F9A,     /* top outer violet glow */
+      0 10px 40px #AB2F9A,      /* bottom outer violet glow */
+      -40px 0 40px #07FAEE,     /* left outer aqua glow */
+      40px 0 40px #07FAEE;      /* right outer aqua glow */
+}
+.glow-circle img {
+   border-radius: 50%;
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+   border: none;
+  
+}
+  
+  
+
+   .section {
+     
+   min-height: 100vh;
+   padding: 80px 20px;
+   margin: 0;
+   background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Static gradient */
+   color: #fff;
+   display: flex;
+   align-items: center;
+  
+}
+  
+@media (max-width: 768px) {
+   .section {
+      padding: 60px 10px;
+   }
+}
+  
+  
+  
+  
+  
+/* === Gradient Animation === */
+@keyframes gradientBG {
+   0% { background-position: 0% 50% }
+   50% { background-position: 100% 50% }
+   100% { background-position: 0% 50% }
+}
+  
+  
+/* === Highlight Text === */
+.highlight {
+   background-color: #ffe8c2;
+   padding: 4px 8px;
+   border-radius: 6px;
+   font-weight: 600;
+   color: #1a1a1a;
+}
+  
+/* === Typewriter Effect === */
+.typewriter {
+   overflow: hidden;
+   white-space: nowrap;
+   border-right: 3px solid #fff;
+   animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+}
+  
+@keyframes typing {
+   from { width: 0 }
+   to { width: 100% }
+}
+  
+@keyframes blink {
+   50% { border-color: transparent }
+}
+  
+/* === Navbar Container === */
+
+
+.navbar {
+   background: rgba(205, 239, 205, 0.1);
+   backdrop-filter: blur(10px);
+   border: none !important;
+   box-shadow: none !important;
+  
+  
+}
+  
+/* === Navbar Brand === */
+.navbar-brand {
+   color: #fff !important;
+   font-weight: 700;
+   font-size: 1.2rem;
+}
+
+
+
+
+  
+/* === Navbar Buttons === */
+.nav-button {
+   all: unset; /* 💥 wipes all browser and Bootstrap styles */
+   color: #fff;
+   font-weight: 500;
+   padding: 8px 16px;
+   margin-left: 10px;
+   cursor: pointer;
+   transition: color 0.3s ease;
+   display: inline-block;
+}
+  
+.nav-button:hover {
+   color: #00ffff;
+}
+  
+.nav-button:focus {
+   outline: none;
+   box-shadow: none;
+}
+  
+
+
+
+
+/* social icons */
+.social-icons {
+   display: flex;
+   gap: 15px;
+   margin-top: 20px;
+}
+
+.social-icons a {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+   background-color: transparent;
+   border: 2px solid #0BC1C4; /* Aqua ring */
+   color: #0BC1C4;
+   font-size: 20px;
+   text-decoration: none;
+   box-shadow: 0 0 10px #0BC1C4;
+   transition: all 0.3s ease;
+}
+  
+.social-icons a:hover {
+   transform: scale(1.1);
+   background-color: rgba(11, 193, 196, 0.1); /* soft aqua tint on hover */
+   box-shadow: 0 0 15px #0BC1C4;
+   color: #fff;
+}
+  
+  
+  
+.glow-button {
+   background-color: #0BC1C4;
+   color: #000;
+   border: #ffffff;
+   box-shadow:
+      0 0 10px #0BC1C4,
+      0 0 10px #0BC1C4,
+      0 0 3px #0BC1C4;
+   transition: all 0.3s ease;
+}
+  
+.glow-button:hover {
+   background-color: #09a9b0;
+   color: #fff;
+   box-shadow:
+      0 0 15px #0BC1C4,
+      0 0 25px #0BC1C4,
+      0 0 35px #0BC1C4;
+}
+  
+  
+.transition {
+   transition: box-shadow 0.3s ease-in-out;
+}
+  
+.transition:hover {
+   box-shadow: 0 0 20px #0BC1C4;
+}
+.shadow-sm:hover {
+   box-shadow: 0 0 20px rgba(11, 193, 196, 0.6) !important;
+}
+  
+  
+/* ABOUT PROFLE */
+  
+.glow-aqua {
+   box-shadow: 0 0 10px #0BC1C4, 0 0 15px #0BC1C4;
+   transition: box-shadow 0.3s ease-in-out;
+}
+.glow-aqua:hover {
+   box-shadow: 0 0 10px #0BC1C4, 0 0 20px #0BC1C4;
+}
+  
+  
+.profile-img {
+   border-radius: 50%;
+   width: 310px;
+   height: 310px;
+   object-fit: cover;
+   border: none;
+}
+.glow-aqua {
+   will-change: box-shadow;
+}
+  
+  
+  
+  
+  
+  
+  
+/* HERO PROFILE   */
+  
+.glow-aqua1 {
+   box-shadow: 0 0 20px #0BC1C4, 0 0 25px #0BC1C4;
+   transition: box-shadow 0.3s ease-in-out;
+}
+.glow-aqua1:hover {
+   box-shadow: 0 0 10px #0BC1C4, 0 0 20px #0BC1C4;
+}
+  
+  
+.hero-img {
+   border-radius: 50%;
+   width: 320px;
+   height: 320px;
+   object-fit: cover;
+   border: none;
+}
+.glow-aqua1 {
+   will-change: box-shadow;
+}
+  
+  
+@keyframes bounceIn {
+   0% { transform: scale(0.5); opacity: 0; }
+   60% { transform: scale(1.2); opacity: 1; }
+   100% { transform: scale(1); }
+}
+  
+.social-icons a {
+   animation: bounce 2s infinite;
+}
+  
+  
+  
+  
+.gradient-text {
+   background: linear-gradient(90deg, #0BC1C4, #AB2F9A);
+   background-size: 200% auto;
+   color: transparent;
+   background-clip: text;
+   -webkit-background-clip: text;
+   animation: shine 3s linear infinite;
+}
+  
+@keyframes shine {
+   0% { background-position: 0% center; }
+   100% { background-position: 200% center; }
+}
+  
+  
+  
+  
+  
+@keyframes floatUpDown {
+   0% { transform: translateY(0); }
+   50% { transform: translateY(-10px); }
+   100% { transform: translateY(0); }
+}
+  
+.hero-img {
+   animation: floatUpDown 3s ease-in-out infinite;
+}
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+#Skills,
+#Projects,
+#Contact {
+   scroll-margin-top: 100px;
+  
+}
+  
+  
+.skill-icon {
+   font-size: 28px;
+   width: 36px;
+   height: 36px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+  
+  
+  
+  
+  
+  
+.skill-bar {
+   height: 6px;
+   background-color: #333;
+   border-radius: 4px;
+   overflow: visible;
+   position: relative;
+   width: 200px;
+}
+  
+.skill-bar .progress-bar {
+   border-radius: 4px;
+   box-shadow: 0 0 8px #0BC1C4;
+   transition: width 1.5s ease-in-out;
+}
+  
+.progress-label {
+   position: absolute;
+   top: -22px;
+   transform: translateX(-50%);
+   font-size: 0.8rem;
+}
+  
+.cert-img {
+   width: 60px;
+   height: 60px;
+   object-fit: cover;
+   border-radius: 8px;
+   box-shadow: 0 0 6px rgba(11, 193, 196, 0.4);
+}
+  
+  
+  
+/* projects */
+  
+  
+  
+.project-card {
+   background:transparent;
+   border: none;
+   border-radius: 10px;
+   padding: 0.75rem;
+   height: 100%;
+   transition: transform 0.4s ease, box-shadow 0.4s ease;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  
+  
+   box-shadow:
+      inset 1px 1px 0 rgba(255, 255, 255, 0.1),
+      inset -1px -1px 0 rgba(0, 255, 255, 0.2),
+      3px 3px 6px rgba(0, 255, 255, 0.2);
+}
+  
+
+.project-card:hover {
+   transform: scale(1.05);
+   box-shadow: 0 0 15px rgba(0, 255, 255, 1);
+  
+  
+  
+}
+  
+  
+.project-card {
+   box-shadow:
+  
+      0 0 10px rgb(0, 240, 255,0.5),        /* center glow */
+      0 4px 6px rgb(0, 240, 255,0.1),        /* bottom */
+           /* top */
+      4px 0 6px rgb(0, 240, 255,0.1),        /* right */
+             /* left */
+}
+  
+  
+.project-title {
+   color: #0BC1C4;
+   font-weight: bold;
+   font-size: 1.25rem;
+}
+.project-btn {
+   border-radius: 8px;
+   padding: 4px 12px;              /* smaller padding */
+   font-size: 0.8rem;              /* smaller text */
+   box-shadow: none;               /* remove invalid shadow */
+   width: 100px;                       /* prevent full-width stretch */
+   display: inline-block;        /* keep it tight */
+}
+  
+  
+ /* Skills cards – same style as project cards */
+
+.skill-card {
+  background: transparent;
+  border-radius: 10px;
+  padding: 1.25rem;
+  height: 100%;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+  box-shadow:
+    inset 1px 1px 0 rgba(255, 255, 255, 0.1),
+    inset -1px -1px 0 rgba(0, 255, 255, 0.2),
+    3px 3px 6px rgba(0, 255, 255, 0.2),
+    0 0 10px rgba(0, 240, 255, 0.5);
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 1);
+}
+
+/* Skill list text */
+.skill-list {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.skill-list li {
+  margin-bottom: 8px;
+  color: #d1fafa;
+  font-size: 0.95rem;
+} 
+  
+  
+.zoom-click {
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   
+}
+  
+.zoom-click:hover {
+   transform: scale(1.05);
+   box-shadow: 0 0 10px #00ffff;
+}
+  
+.zoom-click:active {
+   transform: scale(1.15);
+}
+  
+.glow-link {
+   transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+  
+.glow-link:hover {
+   box-shadow: 0 0 10px #00ffff;
+   border-radius: 50%;
+}
+  
+.glow-link:active {
+   box-shadow: 0 0 20px #00ffff;
+   transform: scale(1.1);
+}
+  
+  
+  
+  
+  
+  
+  
+  
+/* 3D hover effect for contact cards */
+.contact-card {
+   transition: transform 0.4s ease, box-shadow 0.4s ease;
+   perspective: 1000px;
+   border-radius: 50%;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+  
+.contact-card:hover {
+   transform: translateY(-10px) rotateX(5deg);
+   box-shadow: 0 0 15px #00ffff;
+   cursor: pointer;
+  
+}
+  
+/* Glow effect for links */
+.glow-link {
+   transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+  
+.glow-link:hover {
+   box-shadow: 0 0 10px #00ffff;
+   transform: scale(1.05);
+}
+  
+.glow-link:active {
+   box-shadow: 0 0 20px #00ffff;
+   transform: scale(1.1);
+}
+  
+/* Resume button animation */
+.zoom-click {
+   transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+  
+.zoom-click:hover {
+   transform: scale(1.05);
+   box-shadow: 0 0 12px #00ffff;
+}
+  
+.zoom-click:active {
+   transform: scale(1.1);
+   box-shadow: 0 0 20px #00ffff;
+}
+  
+.contact-card {
+   transition: transform 0.5s ease, box-shadow 0.5s ease;
+   transform-style: preserve-3d;
+   perspective: 1000px;
+   background: rgba(0, 0, 0, 0.2);
+   border: 1px solid rgba(0, 255, 255, 0.2);
+}
+  
+.contact-card:hover {
+   transform: rotateY(8deg) translateY(-10px);
+   box-shadow: 0 0 25px #00ffff;
+}
+  
+  
+  
+@keyframes float {
+   0% { transform: translateY(0px); }
+   50% { transform: translateY(-6px); }
+   100% { transform: translateY(0px); }
+}
+  
+.floating {
+   animation: float 3s ease-in-out infinite;
+}
+  
+@keyframes pulseGlow {
+   0% { text-shadow: 0 0 10px #00ffff; }
+   50% { text-shadow: 0 0 20px #00ffff; }
+   100% { text-shadow: 0 0 10px #00ffff; }
+}
+  
+.heading-glow {
+   animation: pulseGlow 1s infinite;
+}
+  
+/* Flip animation */
+.flip-card {
+   perspective: 1000px;
+   border: none;
+}
+  
+.flip-card-inner {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   transition: transform 0.8s ease;
+   transform-style: preserve-3d;
+}
+  
+.flip-card:hover .flip-card-inner,
+.flip-card:active .flip-card-inner {
+   transform: rotateY(180deg);
+}
+  
+.flip-card-front,
+.flip-card-back {
+   position: absolute;
+   border-radius: 60%;
+   width: 100%;
+   height: 100%;
+   backface-visibility: hidden;
+   padding: 1rem;
+   background-color: transparent;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+  
+.flip-card-back {
+   transform: rotateY(180deg);
+   background-color: rgba(0, 255, 255, 0.1);
+   color: #00ffff;
+   border-radius: 60%;
+}
+  
+/* Glow effect for links */
+.glow-link {
+   transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+  
+.glow-link:hover {
+   box-shadow: 0 0 10px #00ffff;
+   transform: scale(1.05);
+}
+  
+.glow-link:active {
+   box-shadow: 0 0 20px #00ffff;
+   transform: scale(1.1);
+}
+  
+/* Resume button glow */
+.zoom-click:hover {
+   transform: scale(1.05);
+   box-shadow: 0 0 15px #00ffff;
+}
+  
+.zoom-click:active {
+   transform: scale(1.1);
+   box-shadow: 0 0 25px #00ffff;
+}
+  
+/* Heading glow */
+.heading-glow h2 {
+   animation: pulseGlow 2s infinite;
+}
+  
+@keyframes pulseGlow {
+   0% { text-shadow: 0 0 10px #00ffff; }
+   50% { text-shadow: 0 0 20px #00ffff; }
+   100% { text-shadow: 0 0 10px #00ffff; }
+}
+/* GlobalStyles.css */
+
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 15px;
+  }
+  .contact-card {
+    border-radius: 30px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .fs-5 {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.3rem;
+  }
+  .contact-card {
+    padding: 0.8rem;
+  }
+  .btn {
+    width: 100%;
+    border-radius: 15px;
+  }
+}
+
+
+
+
+/* Skills Section Responsiveness */
+#Skills {
+  padding: 40px 15px;
+}
+
+.skill-item {
+  text-align: left;
+}
+
+.skill-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+/* Progress bar label fix for small screens */
+.progress-label {
+  position: absolute;
+  top: -20px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+/* Certification images */
+.cert-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* On mobile */
+@media (max-width: 576px) {
+  .heading-glow h4 {
+    font-size: 1.1rem;
+  }
+  .skill-icon {
+    font-size: 1.5rem;
+  }
+  .cert-img {
+    width: 50px;
+    height: 50px;
+  }
+  .progress-label {
+    font-size: 0.7rem;
+  }
+}
+
+
+
+.section {
+  scroll-margin-top: 80px; /* fixes scrollTo issue */
+  padding-top: 80px;       /* creates space under navbar */
+}
+@media (max-width: 768px) {
+  #Home {
+    padding-top: 100px; /* a bit more space on small screens */
+  }
+}
+
+
+.social-icons a {
+  font-size: 1.5rem;
+  color: #ffffff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+
+.cert-list {
+  text-align: left; /* ensures left alignment */
+}
+
+.cert-item {
+  display: flex;
+  align-items: center;
+}
+
+.cert-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+} 
+
+

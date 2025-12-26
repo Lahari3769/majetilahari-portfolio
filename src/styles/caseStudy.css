@@ -1,0 +1,54 @@
+.case-study-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
+  color: #eaeaea;
+}
+
+.case-header h1 {
+  font-size: 3rem;
+}
+
+.subtitle {
+  color: #9aa0a6;
+  margin-bottom: 16px;
+}
+
+.tag-row span {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 4px 10px;
+  border: 1px solid #00ffff;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.case-content section {
+  margin-top: 60px;
+}
+
+.architecture-box {
+  background: #111;
+  padding: 20px;
+  border-left: 4px solid #00ffff;
+}
+
+.diagram-placeholder {
+  margin-top: 20px;
+  height: 200px;
+  border: 1px dashed #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.back-link {
+  margin-top: 80px;
+}
