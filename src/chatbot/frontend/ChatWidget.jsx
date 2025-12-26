@@ -45,7 +45,7 @@ export default function ChatWidget() {
     ]);
 
     try {
-      const API_BASE = import.meta.env.VITE_CHAT_API;
+      const API_BASE = import.meta.env.VITE_CHATBOT_URL;
 
       const res = await fetch(`${API_BASE}/chat/stream`, {
         method: "POST",
