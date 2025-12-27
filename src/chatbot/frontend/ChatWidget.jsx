@@ -48,17 +48,13 @@ export default function ChatWidget() {
     try {
       const API_BASE = import.meta.env.VITE_CHATBOT_URL;
 
-      const res = await fetch(`${API_BASE}/chat`, { 
+      const res = await fetch(`${API_BASE}/chat`, {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question })
       });
 
-      if (!res.ok) {
-        throw new Error("API error");
-      }
+      if (!res.ok) throw new Error("API error");
 
       const data = await res.json();
 
