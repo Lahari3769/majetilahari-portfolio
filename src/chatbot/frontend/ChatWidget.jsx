@@ -8,6 +8,7 @@ export default function ChatWidget() {
   const [input, setInput] = useState("");
   const [hasWelcomed, setHasWelcomed] = useState(false);
   const [showPopup, setShowPopup] = useState(true);
+  const [isFirstRequest, setIsFirstRequest] = useState(true);
 
   const isLoadingRef = useRef(false);
   const imgErrorRef = useRef(false);
@@ -39,10 +40,15 @@ export default function ChatWidget() {
     const question = input;
     setInput("");
 
+    // Show different loading message for first request
+    const loadingMessage = isFirstRequest
+      ? "Loading AI models (this may take up to 60 seconds on first use)..."
+      : "Typing…";
+
     setMessages((prev) => [
       ...prev,
       { role: "user", text: question },
-      { role: "assistant", text: "Typing…" }
+      { role: "assistant", text: loadingMessage }
     ]);
 
     try {
@@ -68,6 +74,11 @@ export default function ChatWidget() {
         };
         return updated;
       });
+
+      // Mark that first request is complete
+      if (isFirstRequest) {
+        setIsFirstRequest(false);
+      }
     } catch (error) {
       console.error("Chat error:", error);
       setMessages((prev) => {
@@ -124,8 +135,11 @@ export default function ChatWidget() {
               onChange={(e) => setInput(e.target.value)}
               placeholder="Ask about projects, skills, experience…"
               onKeyDown={(e) => e.key === "Enter" && sendMessage()}
+              disabled={isLoadingRef.current}
             />
-            <button onClick={sendMessage}>Send</button>
+            <button onClick={sendMessage} disabled={isLoadingRef.current}>
+              Send
+            </button>
           </div>
         </div>
       )}
