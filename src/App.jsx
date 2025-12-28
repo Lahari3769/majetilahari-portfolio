@@ -55,9 +55,6 @@ function App() {
           element={<SupportingGenAIProjects />}
         />
       </Routes>
-
-      {/* ✅ Floating AI Assistant (available on all pages) */}
-      <ChatWidget />
     </Router>
   );
 }
