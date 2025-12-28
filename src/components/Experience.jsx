@@ -3,9 +3,9 @@ import { FaBriefcase, FaRobot, FaCode, FaServer } from 'react-icons/fa';
 
 const Experience = () => {
   const certificates = [
-    { title: 'Machine Learning-Based Housing Price Prediction System', link: '#' },
-    { title: 'Named Entity Recognition using Bidirectional LSTM', link: '#' },
-    { title: 'Certified Machine Learning Intern | Pantechelearning', link: '#' },
+    { title: 'Machine Learning-Based Housing Price Prediction System'},
+    { title: 'Named Entity Recognition using Bidirectional LSTM'},
+    { title: 'Certified Machine Learning Intern | Pantechelearning'},
   ];
 
   return (
@@ -179,7 +179,6 @@ const Experience = () => {
             {certificates.map((cert, index) => (
               <a
                 key={index}
-                href={cert.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-info text-decoration-none"
