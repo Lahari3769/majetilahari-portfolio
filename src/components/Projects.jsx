@@ -46,10 +46,10 @@ export default function Projects() {
   const navigate = useNavigate();
 
   return (
-    <section id="Projects" className="section pt-0 bg-dark text-light">
+    <section id="Projects" className="section bg-dark text-light">
       <div className="container">
 
-        <h2 className="text-center mb-4">Projects</h2>
+        <h2 className="text-center mb-5">Projects</h2>
 
         <div className="row gy-4">
           {projects.map((p, index) => (

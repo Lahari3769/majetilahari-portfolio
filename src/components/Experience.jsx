@@ -9,10 +9,10 @@ const Experience = () => {
   ];
 
   return (
-    <section id="Experience" className="section pt-0 bg-dark text-light">
+    <section id="Experience" className="section bg-dark text-light">
       <div className="container">
         
-        <h2 className="text-center mb-4">Experience - IBM </h2>
+        <h2 className="text-center mb-5">Experience - IBM </h2>
 
         <div className="text-center mb-4">
           <p className="text-white-50">Building production systems and AI solutions at scale</p>
