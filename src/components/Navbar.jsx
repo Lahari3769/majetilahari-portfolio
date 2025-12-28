@@ -56,6 +56,7 @@ export default function Navbar() {
               { label: 'About', id: 'AboutMe' },
               { label: 'Skills', id: 'Skills&Cert' },
               { label: 'Projects', id: 'Projects' },
+              { label: 'Experience', id: 'Experience' },
               { label: 'Contact', id: 'Contact' },
             ].map(({ label, id }) => (
               <li className="nav-item" key={id}>

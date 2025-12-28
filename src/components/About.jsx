@@ -5,7 +5,6 @@ export default function About() {
     <section
       id="AboutMe"
       className="section"
-      data-aos="fade-up"
       style={{ scrollMarginTop: '80px' }}
     >
       <div className="container">
@@ -25,7 +24,7 @@ export default function About() {
           </div>
 
           {/* Text */}
-          <div className="col-md-8">
+          <div className="col-md-8" data-aos="fade-up">
             <h2>
               About <span style={{ color: '#0BC1C4' }}>Me</span>
             </h2>

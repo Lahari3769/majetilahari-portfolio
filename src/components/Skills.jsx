@@ -41,7 +41,7 @@ export default function Skills() {
       ]
     },
     {
-      title: 'Cloud, DevOps & MLOps',
+      title: 'Cloud, DevOps & AI Infrastructure',
       skills: [
         'IBM Cloud',
         'Docker',
