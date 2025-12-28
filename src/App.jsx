@@ -17,7 +17,7 @@ import SupportingGenAIProjects from './pages/case-studies/SupportingGenAIProject
 import MyPortfolioAssistant from './pages/case-studies/MyPortfolioAssistant';
 
 // ✅ Chatbot
-import ChatWidget from './chatbot/frontend/ChatWidget';
+// import ChatWidget from './chatbot/frontend/ChatWidget';
 
 function App() {
   useEffect(() => {
@@ -58,8 +58,8 @@ function App() {
         />
       </Routes>
 
-      {/* ✅ Floating AI Assistant (available on all pages) */}
-      <ChatWidget />
+      {/* ✅ Floating AI Assistant (available on all pages)
+      <ChatWidget /> */}
     </Router>
   );
 }
