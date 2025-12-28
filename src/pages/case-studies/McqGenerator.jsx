@@ -3,6 +3,7 @@
 import architectureImg from '../../assets/architectures/mcq-generator-architecture.png';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
+import demoVideo from '../../assets/demo-videos/mcq-generator-demo.mp4';
 
 export default function McqGenerator() {
   const navigate = useNavigate();
@@ -121,6 +122,26 @@ export default function McqGenerator() {
             <li>Highlights strong engineering discipline through modular design and validation layers.</li>
             <li>Establishes a public, explainable GenAI project suitable for demos and interviews.</li>
           </ul>
+        </div>
+
+        {/* Demo Video */}
+        <div className="mb-5">
+          <h4 className="mb-3">Demo Video</h4>
+          <div className="text-center">
+            <div className="ratio ratio-16x9" style={{ maxWidth: '900px', margin: '0 auto' }}>
+              <video 
+                controls 
+                className="rounded shadow"
+                style={{ border: '1px solid #333' }}
+              >
+                <source src={demoVideo} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p className="text-white-50 mt-2 small">
+              Watch the AI-Powered Smart Quiz in action - from multimodal architecture to live demo of mcqs genertion and assessment.
+            </p>
+          </div>
         </div>
 
         {/* Planned Enhancements */}

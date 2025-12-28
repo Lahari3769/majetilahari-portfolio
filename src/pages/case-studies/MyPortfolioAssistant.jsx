@@ -3,6 +3,8 @@
 import architectureImg from '../../assets/architectures/portfolio-assistant-architecture.png';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
+import demoVideo from '../../assets/demo-videos/portfolio-assistant-demo.mp4';
+
 
 export default function MyPortfolioAssistant() {
   const navigate = useNavigate();
@@ -204,6 +206,26 @@ export default function MyPortfolioAssistant() {
           </ul>
         </div>
 
+        {/* Demo Video */}
+        <div className="mb-5">
+          <h4 className="mb-3">Demo Video</h4>
+          <div className="text-center">
+            <div className="ratio ratio-16x9" style={{ maxWidth: '900px', margin: '0 auto' }}>
+              <video
+                controls
+                className="rounded shadow"
+                style={{ border: '1px solid #333' }}
+              >
+                <source src={demoVideo} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p className="text-white-50 mt-2 small">
+              Watch the AI assistant in action - from architecture explanation to live Q&A demonstration
+            </p>
+          </div>
+        </div>
+
         {/* Future Enhancements */}
         <div className="mb-5">
           <h4 className="mb-3">Future Enhancements</h4>
@@ -216,7 +238,7 @@ export default function MyPortfolioAssistant() {
             <li>Deploy to cloud infrastructure for public accessibility</li>
           </ul>
         </div>
-
+        
       </div>
     </section>
   );

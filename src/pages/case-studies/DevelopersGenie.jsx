@@ -3,6 +3,7 @@
 import architectureImg from '../../assets/architectures/developers-genie-architecture.png';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
+import demoVideo from '../../assets/demo-videos/developers-genie-demo.mp4';
 
 export default function DevelopersGenie() {
   const navigate = useNavigate();
@@ -146,6 +147,26 @@ export default function DevelopersGenie() {
             <li>Accelerated review and approval cycles by enabling conversational change analysis.</li>
             <li>Recognized with a <strong>Judges’ Award at IBM Developers Jumpstart</strong> for innovation, usability, and real-world impact</li>
           </ul>
+        </div>
+
+        {/* Demo Video */}
+        <div className="mb-5">
+          <h4 className="mb-3">Demo Video</h4>
+          <div className="text-center">
+            <div className="ratio ratio-16x9" style={{ maxWidth: '900px', margin: '0 auto' }}>
+              <video 
+                controls 
+                className="rounded shadow"
+                style={{ border: '1px solid #333' }}
+              >
+                <source src={demoVideo} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p className="text-white-50 mt-2 small">
+              Watch the agentic AI system in action - from multi-agent architecture to live version comparison, summarization, and conversational querying
+            </p>
+          </div>
         </div>
 
       </div>

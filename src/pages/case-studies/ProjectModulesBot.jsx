@@ -1,6 +1,7 @@
 import architectureImg from '../../assets/architectures/project-modules-chatbot-architecture.png';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
+import demoVideo from '../../assets/demo-videos/project-modules-bot-demo.mp4';
 
 export default function ProjectModulesBot() {
   const navigate = useNavigate();
@@ -144,6 +145,26 @@ export default function ProjectModulesBot() {
               <li>Demonstrated a scalable blueprint for enterprise RAG deployments.</li>
             </ul>
           </ul>
+        </div>
+        
+        {/* Demo Video */}
+        <div className="mb-5">
+          <h4 className="mb-3">Demo Video</h4>
+          <div className="text-center">
+            <div className="ratio ratio-16x9" style={{ maxWidth: '900px', margin: '0 auto' }}>
+              <video 
+                controls 
+                className="rounded shadow"
+                style={{ border: '1px solid #333' }}
+              >
+                <source src={demoVideo} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p className="text-white-50 mt-2 small">
+              Watch the RAG-based chatbot in action - from architecture overview to live documentation queries and deployment details on IBM Cloud
+            </p>
+          </div>
         </div>
 
       </div>

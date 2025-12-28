@@ -134,7 +134,7 @@ export default function Contact() {
       {/* Resume Button */}
       <div className="mt-4  text-center">
         <a
-          href="/myresume.pdf"
+          href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-outline-info px-4 py-2 zoom-click"

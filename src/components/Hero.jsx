@@ -70,7 +70,7 @@ export default function Hero() {
               </button>
 
               <a
-                href="/myresume.pdf"
+                href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn rounded-pill px-4 py-2 border border-info text-info zoom-click"
@@ -105,7 +105,7 @@ export default function Hero() {
               </button>
 
               <a
-                href="/myresume.pdf"
+                href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn rounded-pill px-4 py-2 border border-info text-info zoom-click"
