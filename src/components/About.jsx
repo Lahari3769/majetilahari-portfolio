@@ -26,16 +26,8 @@ export default function About() {
           {/* Text */}
           <div className="col-md-8" data-aos="fade-up">
             <h2>
-              About <span style={{ color: '#0BC1C4' }}>Me</span>
+              About Me
             </h2>
-
-            <br />
-
-            <h4 className="text-light">
-              Software Engineer with a Generative AI & Systems focus
-            </h4>
-
-            <br />
 
             <p className="fs-5 text-white-50">
               I’m a software engineer with hands-on experience building
