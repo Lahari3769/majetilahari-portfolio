@@ -16,8 +16,6 @@ import ProjectModulesBot from './pages/case-studies/ProjectModulesBot';
 import SupportingGenAIProjects from './pages/case-studies/SupportingGenAIProjects';
 import MyPortfolioAssistant from './pages/case-studies/MyPortfolioAssistant';
 
-// ✅ Chatbot
-import ChatWidget from './chatbot/frontend/ChatWidget';
 
 function App() {
   useEffect(() => {
