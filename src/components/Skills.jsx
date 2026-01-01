@@ -11,24 +11,26 @@ export default function Skills() {
 
   const skillSections = [
     {
-      title: 'Generative AI & LLMs',
+      title: 'Conversational AI & Generative AI',
       skills: [
-        'Large Language Models (Watsonx.ai, Mistral, Ollama, OpenAI, Google Gemini))',
-        'Prompt Engineering & Prompt Templates',
-        'Retrieval Augmented Generation (RAG)',
-        'Agentic AI Systems',
-        'LangChain',
-        'Vector Databases',
-        'Embeddings, Chunking & Metadata Design'
+        'Large Language Models (Watsonx.ai, Mistral, Llama, Ollama, Google Gemini)',
+        'Prompt Engineering & Response Grounding',
+        'Retrieval-Augmented Generation (RAG)',
+        'Agentic AI Systems', 
+        'LangChain', 
+        'Multi-Agent Orchestration',
+        'Virtual Agents, Chatbots, Q&A Systems'
       ]
     },
     {
       title: 'AI & ML Foundations',
       skills: [
-        'Machine Learning (Fundamentals)',
-        'Natural Language Processing (NLP)',
-        'Deep Learning (Fundamentals)',
-        'AI Engineering (LLMs in production systems)'
+        'Natural Language Processing (NLP)', 
+        'Machine Learning',
+        'Deep Learning',
+        'LLMs in Production Systems', 
+        'RAG Pipelines', 
+        'Semantic Retrieval'
       ]
     },
     {
@@ -45,22 +47,16 @@ export default function Skills() {
       skills: [
         'IBM Cloud',
         'Docker',
-        'CI/CD (Jenkins, Tekton)',
-        'OpenShift',
-        'Automation & Monitoring (Shell Scripting)'
-      ]
-    },
-    {
-      title: 'Security & Reliability',
-      skills: [
+        'CI/CD Pipelines (Jenkins, Tekton)',
         'Secrets Management',
+        'OpenShift',
         'Security Scanning (Twistlock, Mend)',
-        'GitHub Access Management & Branch Protection',
+        'Automation & Monitoring (Shell Scripting)',
         'Production-grade AI System Practices'
       ]
     },
     {
-      title: 'Tools & Developer Workflow',
+      title: 'Developer Tools & Workflow',
       skills: [
         'Git & GitHub',
         'Postman',
@@ -73,7 +69,8 @@ export default function Skills() {
       title: 'Ways of Working',
       skills: [
         'Agile Development',
-        'AI Project Leadership & Ownership'
+        'Project Leadership', 
+        'AI Solution Ownership'
       ]
     }
   ];

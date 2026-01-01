@@ -28,13 +28,14 @@ export default function Hero() {
             </h2>
 
             <h5 className="text-light mt-2">
-              Software Engineer
-              <span style={{ color: '#0BC1C4' }}> • Generative AI & Systems</span>
+              Conversational AI Engineer
+              <span style={{ color: '#0BC1C4' }}> • Generative AI & Cloud Systems</span>
             </h5>
 
             <p className="text-white mt-4 fs-5">
-              I design, build and deploy <strong>Production-grade Backend Systems and Generative AI Applications</strong> —
-              from RAG Pipelines and Agentic Workflows to cloud Deployments with CI/CD Automation.
+              I design, build and deploy <strong>Production-grade Conversational AI and backend systems</strong> — from 
+              RAG pipelines and Agentic AI workflows to cloud deployments with CI/CD automation. My focus is on reliable, scalable, 
+              and impactful AI solutions that improve operational efficiency and developer productivity in enterprise environments.
             </p>
 
             {/* Social Icons */}
