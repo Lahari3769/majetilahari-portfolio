@@ -30,8 +30,9 @@ export default function About() {
             </h2>
 
             <p className="fs-5 text-white-50">
-              I’m a Conversational AI Engineer with hands-on experience building
-              <strong> enterprise-grade Generative AI systems </strong>
+               I’m a software engineer with hands-on experience building
+              <strong> backend-heavy, production-ready Generative AI systems </strong>
+               in enterprise environments.
             </p>
 
             <p className="fs-5 text-white-50">

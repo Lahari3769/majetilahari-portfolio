@@ -11,7 +11,7 @@ export default function Skills() {
 
   const skillSections = [
     {
-      title: 'Conversational AI & Generative AI',
+      title: 'Generative AI & LLMs',
       skills: [
         'Large Language Models (Watsonx.ai, Mistral, Llama, Ollama, Google Gemini)',
         'Prompt Engineering & Response Grounding',
@@ -19,7 +19,8 @@ export default function Skills() {
         'Agentic AI Systems', 
         'LangChain', 
         'Multi-Agent Orchestration',
-        'Virtual Agents, Chatbots, Q&A Systems'
+        'Virtual Agents, Chatbots, Q&A Systems',
+        'Embeddings, Chunking & Metadata Design'
       ]
     },
     {

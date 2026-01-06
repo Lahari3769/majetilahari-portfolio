@@ -30,7 +30,7 @@ export default function Navbar() {
                 lineHeight: '1.1'
               }}
             >
-             Conversational AI Engineer • Generative AI & Cloud Systems
+             Software Engineer • Generative AI & Cloud Systems
             </small>
           </div>
         </button>
