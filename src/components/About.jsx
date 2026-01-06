@@ -36,19 +36,16 @@ export default function About() {
             </p>
 
             <p className="fs-5 text-white-50">
-              My work spans:
-              <ui>
-                <li><strong>Conversational AI & Chatbots: </strong>Virtual agents, Q&A bots, multi-turn flows, Dialogflow-equivalent designs.</li>
-                <li><strong>Generative AI & LLM Systems: </strong>LLM orchestration, Agentic AI, prompt engineering, grounded responses.</li>
-                <li><strong>RAG & Knowledge Retrieval: </strong>Vector databases (Milvus, ChromaDB), embeddings, metadata design.</li>
-                <li><strong>Cloud & DevOps: </strong>IBM Cloud, OpenShift, Docker, CI/CD pipelines, security and monitoring.</li>
-                <li><strong>Applied AI in Operations: </strong>AI-assisted incident resolution, operational intelligence, developer support bots.</li>
-              </ui> 
+              My work spans <strong>RAG architectures, LLM orchestration, Agentic AI Systems, Vector databases,
+              CI/CD pipelines, and containerized deployments</strong> on cloud platforms.
+              I enjoy solving problems that sit at the intersection of
+              system design, developer productivity, and applied AI.
             </p>
 
             <p className="fs-5 text-white-50 mb-0">
-              I enjoy solving problems at the <strong>intersection of AI, system design, and productivity</strong>, delivering solutions that
-              are <strong>scalable, measurable, and production-ready.</strong>
+              I’m particularly interested in roles where I can build scalable systems,
+              work close to infrastructure, and apply Generative AI in ways that are
+              reliable, measurable, and impactful in the real world.
             </p>
           </div>
 

@@ -33,7 +33,7 @@ export default function Hero() {
             </h5>
 
             <p className="text-white mt-4 fs-5">
-              I design, build and deploy <strong>Production-grade Conversational AI and backend systems</strong> — from 
+              I design, build and deploy <strong>Production-grade AI and backend systems</strong> — from 
               RAG pipelines and Agentic AI workflows to cloud deployments with CI/CD automation. My focus is on reliable, scalable, 
               and impactful AI solutions that improve operational efficiency and developer productivity in enterprise environments.
             </p>
