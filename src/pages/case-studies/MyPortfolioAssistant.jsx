@@ -150,7 +150,7 @@ export default function MyPortfolioAssistant() {
             <li><strong>LLM Inference:</strong> Ollama (Local deployment)</li>
             <li><strong>Web Scraping:</strong> Playwright</li>
             <li><strong>Frontend:</strong> React, JavaScript, CSS3</li>
-            <li><strong>Deployment:</strong> Local development environment</li>
+            <li><strong>Deployment:</strong> Vercel</li>
           </ul>
         </div>
 
