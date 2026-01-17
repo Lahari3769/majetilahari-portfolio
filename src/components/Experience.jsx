@@ -131,7 +131,7 @@ const Experience = () => {
                 <li>Implemented secure, ITSS-compliant end to end <strong className="text-white">CI/CD pipelines</strong> with Mend and Twistlock <strong className="text-white">security scanning,</strong> publishing audit-ready reports to Cloud Object Storage.</li>
                 <li>Managed <strong className="text-white">GitHub admin tasks</strong>: access controls, branch protection, secrets management, vulnerability workflows.</li>
                 <li>Automated <strong className="text-white">10+ operational workflows and monitoring</strong> tasks using shell scripting: file operations, DB backups, monitoring alerts, cron scheduling, saving 30+ hours per week and reducing operational errors by 30%.</li>
-                <li>Currently, <strong className="text-white">leading</strong>a team of 6 engineers, conducting knowledge transfers, code reviews, <strong className="text-white">mentoring</strong> two interns, and driving delivery priorities to improve onboarding speed and team productivity.</li>
+                <li>Currently, <strong className="text-white">leading</strong> a team of 6 engineers, conducting knowledge transfers, code reviews, <strong className="text-white">mentoring</strong> two interns, and driving delivery priorities to improve onboarding speed and team productivity.</li>
                 <li>Deployed apps on <strong className="text-white">IBM Cloud</strong>: IAM policies, Object Storage, OpenShift, Secrets Manager, LogDNA integration</li>
               </ul>
             </div>
