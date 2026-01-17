@@ -104,12 +104,12 @@ const Experience = () => {
                 <h5 className="fw-bold text-white mb-0">AI Development</h5>
               </div>
               <ul className="text-white-50 small" style={{ lineHeight: '1.8' }}>
-                <li>Built <strong className="text-white">Project Modules Q&A Chatbot</strong> that enables developers and SREs to query GitHub-hosted project documentation using natural language, backed by vector search, CI/CD, and cloud deployment.</li>
-                <li>Developed <strong className="text-white">Developer’s Genie,</strong> an agentic Generative AI system that enables conversational understanding, summarization, and comparison of evolving technical specifications and codebases across multiple versions.</li>
-                <li>Created <strong className="text-white">Run Status Bot,</strong> a natural-language chatbot that dynamically queries IBM Db2 to retrieve structured run-status data and uses LLMs to generate human-readable system health summaries for operational teams.</li>
-                <li>Built <strong className="text-white">SRE Support Bot</strong>, a semantic-search-enabled chatbot that ingests runbooks and operational procedures, enabling SREs to query troubleshooting knowledge conversationally and accelerate incident triage.</li>
-                <li>Implemented <strong className="text-white">LLM-Based Test Case Generator,</strong> a prompt-engineered GenAI system that generates unit and integration test cases directly from feature specifications and code logic.</li>
-                <li>Developed <strong className="text-white">Incident Management & Resolution Intelligence System,</strong> an AI-assisted system that leverages historical incident and resolution data to provide probable root-cause hints and resolution suggestions during live operational incidents.</li>
+                <li>Designed and deployed a RAG-based production <strong className="text-white">Project Modules Q&A Chatbot</strong> on IBM Cloud using Flask, Docker, Jenkins CI/CD, and Milvus vector search integrated with Watsonx.ai LLMs, enabling instant access to 100% of project documentation and reducing manual data retrieval by 90%.</li>
+                <li>Led an 11-member team to build a <strong className="text-white">Judges’ Award–winning multi-agent LLM system, Developer’s Genie</strong> at IBM Developers Jumpstart, that enables conversational understanding, summarization, and comparison of evolving technical specifications and codebases across multiple versions, reducing manual code review effort by 60% and accelerating approval cycles.</li>
+                <li>Created <strong className="text-white">SRE Support Bot,</strong> a semantic-search-enabled chatbot that ingests runbooks and operational procedures, enabling SREs to query troubleshooting knowledge conversationally and accelerating incident response times by 40%.</li>
+                <li>Built an AI-assisted <strong className="text-white">Incident Management & Resolution Intelligence Platform,</strong> leveraging historical data to suggest probable root causes and fixes, improving resolution efficiency by 25%.</li>
+                <li>Developed <strong className="text-white">Run Status Bot,</strong> a natural-language chatbot that dynamically queries IBM Db2 to retrieve structured run-status data and uses LLMs to generate human-readable system health summaries for operational teams.</li>
+                <li>Engineered a prompt-driven <strong className="text-white">LLM-Based Test Case Generator</strong> to auto-generate unit and integration test cases, increasing test coverage by 30% and reducing manual QA effort.</li>
 
               </ul>
             </div>
@@ -124,13 +124,14 @@ const Experience = () => {
                  }}>
               <div className="d-flex align-items-center mb-3">
                 <FaServer className="me-2" style={{ fontSize: '1.5rem', color: '#0BC1C4' }} />
-                <h5 className="fw-bold text-white mb-0">Cloud, DevOps & AI Infrastructure</h5>
+                <h5 className="fw-bold text-white mb-0">Cloud, DevOps & Infrastructure</h5>
               </div>
               <ul className="text-white-50 small" style={{ lineHeight: '1.8' }}>
-                <li>Maintained <strong className="text-white">CI/CD pipelines</strong> using Jenkins and Tekton for automated build, test, and deployment</li>
-                <li>Integrated <strong className="text-white">security scanning</strong> (Twistlock, Mend) into pipelines to enforce container and dependency compliance</li>
-                <li>Managed <strong className="text-white">GitHub admin tasks</strong>: access controls, branch protection, secrets management, vulnerability workflows</li>
-                <li>Automated workflows via <strong className="text-white">shell scripting</strong>: file operations, DB backups, monitoring alerts, cron scheduling</li>
+                <li>Architected <strong className="text-white">automated dashboards</strong> providing real-time feeder and process visibility, eliminating manual tracking and enabling one-click operational insights for application and leadership teams.</li>
+                <li>Implemented secure, ITSS-compliant end to end <strong className="text-white">CI/CD pipelines</strong> with Mend and Twistlock <strong className="text-white">security scanning,</strong> publishing audit-ready reports to Cloud Object Storage.</li>
+                <li>Managed <strong className="text-white">GitHub admin tasks</strong>: access controls, branch protection, secrets management, vulnerability workflows.</li>
+                <li>Automated <strong className="text-white">10+ operational workflows and monitoring</strong> tasks using shell scripting: file operations, DB backups, monitoring alerts, cron scheduling, saving 30+ hours per week and reducing operational errors by 30%.</li>
+                <li>Currently, <strong className="text-white">leading</strong>a team of 6 engineers, conducting knowledge transfers, code reviews, <strong className="text-white">mentoring</strong> two interns, and driving delivery priorities to improve onboarding speed and team productivity.</li>
                 <li>Deployed apps on <strong className="text-white">IBM Cloud</strong>: IAM policies, Object Storage, OpenShift, Secrets Manager, LogDNA integration</li>
               </ul>
             </div>
@@ -148,11 +149,10 @@ const Experience = () => {
                 <h5 className="fw-bold text-white mb-0">Software Development</h5>
               </div>
               <ul className="text-white-50 small" style={{ lineHeight: '1.8' }}>
-                <li>Developed <strong className="text-white">Full-Stack Web Applications</strong> with dynamic UIs (Angular) and backend APIs (PHP Laravel).</li>
-                <li>Implemented <strong className="text-white">Database Operations and Schema Management </strong> (IBM Db2) with optimized SQL queries.</li>
-                <li>Ensured <strong className="text-white">Data Consistency and Integrity</strong> across distributed systems.</li>
-                <li>Automated <strong className="text-white">UI Testing and Quality Assurance </strong>, integrated in CI for regression coverage across releases.</li>
-                <li>Collaborated in <strong className="text-white">Agile workflows</strong> with cross-functional teams through sprint planning, stand-ups, and code reviews.</li>
+                <li>Built Excel-driven <strong className="text-white">batch automation for Sales role creation,</strong> reducing processing time from minutes per role to minutes for hundreds of roles (99% time reduction). Project <strong className="text-white">won 2nd Place in 1Q25 Client Advocacy Awards.</strong></li>
+                <li>Developed <strong className="text-white">full-stack user-centric web applications </strong> with clear, context-aware exception handling, reducing user errors by 30% and improving overall UX with dynamic UIs (Angular) and backend APIs (PHP Laravel).</li>
+                <li>Implemented <strong className="text-white">Database Operations and Schema Management</strong> (IBM Db2) with optimized SQL queries.</li>
+                <li>Collaborated in <strong className="text-white">Agile workflows </strong>with cross-functional teams through sprint planning, stand-ups, and code reviews.</li>
               </ul>
             </div>
           </div>

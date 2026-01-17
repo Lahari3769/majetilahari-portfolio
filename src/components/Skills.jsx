@@ -11,6 +11,19 @@ export default function Skills() {
 
   const skillSections = [
     {
+      title: 'Languages & Data Engineering',
+      skills: [
+        'Python',
+        'HTML',
+        'CSS',
+        'Typescript',
+        'PHP (Laravel)',
+        'Shell Scripting',
+        'SQL - IBM Db2',
+        'Structured & Unstructured Data Processing'
+      ]
+    },
+    {
       title: 'Generative AI & LLMs',
       skills: [
         'Large Language Models (Watsonx.ai, Hugging Face, OpenAI, Google Gemini)',
@@ -32,19 +45,6 @@ export default function Skills() {
         'LLMs in Production Systems', 
         'RAG Pipelines', 
         'Semantic Retrieval'
-      ]
-    },
-    {
-      title: 'Languages & Data Engineering',
-      skills: [
-        'Python',
-        'HTML',
-        'CSS',
-        'Typescript',
-        'PHP (Laravel)',
-        'Shell Scripting',
-        'SQL - IBM Db2',
-        'Structured & Unstructured Data Processing'
       ]
     },
     {
