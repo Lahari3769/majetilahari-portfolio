@@ -13,7 +13,7 @@ export default function Skills() {
     {
       title: 'Generative AI & LLMs',
       skills: [
-        'Large Language Models (Watsonx.ai, Mistral, Llama, Ollama, Google Gemini)',
+        'Large Language Models (Watsonx.ai, Hugging Face, OpenAI, Google Gemini)',
         'Prompt Engineering & Response Grounding',
         'Retrieval-Augmented Generation (RAG)',
         'Agentic AI Systems', 
@@ -35,11 +35,15 @@ export default function Skills() {
       ]
     },
     {
-      title: 'Backend & Data Engineering',
+      title: 'Languages & Data Engineering',
       skills: [
         'Python',
-        'Flask',
-        'IBM Db2',
+        'HTML',
+        'CSS',
+        'Typescript',
+        'PHP (Laravel)',
+        'Shell Scripting',
+        'SQL - IBM Db2',
         'Structured & Unstructured Data Processing'
       ]
     },
@@ -47,7 +51,7 @@ export default function Skills() {
       title: 'Cloud, DevOps & AI Infrastructure',
       skills: [
         'IBM Cloud',
-        'Docker',
+        'Cloud Object Storage',
         'CI/CD Pipelines (Jenkins, Tekton)',
         'Secrets Management',
         'OpenShift',
@@ -59,7 +63,11 @@ export default function Skills() {
     {
       title: 'Developer Tools & Workflow',
       skills: [
+        'Flask',
+        'Streamlit',
+        'Angular',
         'Git & GitHub',
+        'Docker',
         'Postman',
         'VS Code',
         'Jupyter Notebooks',
@@ -67,10 +75,13 @@ export default function Skills() {
       ]
     },
     {
-      title: 'Ways of Working',
+      title: 'Professional Skills',
       skills: [
-        'Agile Development',
-        'Project Leadership', 
+        'Agile Delivery',
+        'Technical Leadership', 
+        'Mentorship',
+        'Cross-functional Collaboration',
+        'Executive Communication',
         'AI Solution Ownership'
       ]
     }

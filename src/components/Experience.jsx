@@ -3,9 +3,11 @@ import { FaBriefcase, FaRobot, FaCode, FaServer } from 'react-icons/fa';
 
 const Experience = () => {
   const certificates = [
+    { title: '1st Place & Judges’ Award - IBM Developers Jumpstart (Multi-Agent LLM System)'},
+    { title: '2nd Place - 1Q25 Client Advocacy Awards (Sales Plan Automation)'},
+    { title: 'Certified Machine Learning Intern | Pantechelearning'},
     { title: 'Machine Learning-Based Housing Price Prediction System'},
     { title: 'Named Entity Recognition using Bidirectional LSTM'},
-    { title: 'Certified Machine Learning Intern | Pantechelearning'},
   ];
 
   return (
@@ -16,7 +18,7 @@ const Experience = () => {
 
         <div className="text-center mb-4">
           <p className="text-white-50">Building production systems and AI solutions at scale</p>
-          <p className="text-white-50">January 2023 - Present | 3 Years</p>
+          <p className="text-white-50">January 2023 - Present | 3+ Years</p>
         </div>
 
         <div className="row justify-content-center mb-5" data-aos="fade-up">
@@ -34,7 +36,7 @@ const Experience = () => {
               <div className="text-white-50 d-none d-md-block" style={{ fontSize: '1.5rem' }}>→</div>
               <div className="text-center">
                 <FaServer className="mb-2" style={{ fontSize: '2rem', color: '#0BC1C4' }} />
-                <div className="fw-bold text-white">DevOps Engineer</div>
+                <div className="fw-bold text-white">Software Developer (DevOps)</div>
                 <small className="text-white-50">Apr 2025 - Present</small>
               </div>
             </div>
@@ -174,7 +176,7 @@ const Experience = () => {
         <br></br>
         <br></br>
         <div className="container">
-          <h2 className="text-center mb-4">Certification & Early Work</h2>
+          <h2 className="text-center mb-4">Awards, Certification & Early Work</h2>
           <div className="d-flex flex-wrap justify-content-center gap-3" data-aos="fade-up">
             {certificates.map((cert, index) => (
               <a

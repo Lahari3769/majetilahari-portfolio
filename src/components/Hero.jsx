@@ -28,7 +28,7 @@ export default function Hero() {
             </h2>
 
             <h5 className="text-light mt-2">
-              Software Engineer
+              Software Developer
               <span style={{ color: '#0BC1C4' }}> • Generative AI & Cloud Systems</span>
             </h5>
 
