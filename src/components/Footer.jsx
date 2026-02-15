@@ -10,7 +10,7 @@ export default function Footer() {
                     <a href="http://github.com/Lahari3769/" target="_blank" className="text-decoration-none text-info">
                          GitHub
                     </a>
-                    <a href="mailto:majetilahari@gmail.com" target="_blank" className="text-decoration-none text-warning">
+                    <a href="mailto:laharimajeti2002@gmail.com" target="_blank" className="text-decoration-none text-warning">
                          Email
                     </a>
                </div>

@@ -73,10 +73,10 @@ export default function Contact() {
             📧 <strong>Email:</strong>
           </p>
           <a
-            href="mailto:majetilahari@gmail.com"
+            href="mailto:laharimajeti2002@gmail.com"
             className="text-info fw-bold text-decoration-none"
           >
-            majetilahari@gmail.com
+            laharimajeti2002@gmail.com
           </a>
         </div>
 
