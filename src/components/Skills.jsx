@@ -52,7 +52,7 @@ export default function Skills() {
       skills: [
         'IBM Cloud',
         'Cloud Object Storage',
-        'CI/CD Pipelines (Jenkins, Tekton)',
+        'CI/CD Pipelines (Jenkins, Tekton, Cirrus)',
         'Secrets Management',
         'OpenShift',
         'Security Scanning (Twistlock, Mend)',
