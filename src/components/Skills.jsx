@@ -11,67 +11,89 @@ export default function Skills() {
 
   const skillSections = [
     {
-      title: 'Languages & Data Engineering',
+      title: 'Backend & Frameworks',
       skills: [
         'Python',
-        'HTML',
-        'CSS',
-        'Typescript',
+        'Flask',
+        'LangChain',
+        'FastAPI',
         'PHP (Laravel)',
-        'Shell Scripting',
-        'SQL - IBM Db2',
-        'Structured & Unstructured Data Processing'
+        'RESTful APIs'
       ]
     },
     {
-      title: 'Generative AI & LLMs',
+      title: 'Cloud & DevOps',
+      skills: [
+        'IBM Cloud',
+        'OpenShift',
+        'Docker',
+        'Version Control (Git)',
+        'Secrets Manager',
+        'CI/CD Pipelines (Jenkins, Tekton, Cirrus)',
+        'Cloud Object Storage',
+        'Shell Scripting'
+      ]
+    },
+    {
+      title: 'Databases & Vector Stores',
+      skills: [
+        'IBM Db2',
+        'Milvus',
+        'ChromaDB',
+        'SQL'
+      ]
+    },
+    {
+      title: 'Testing',
+      skills: [
+        'Unit Testing',
+        'Integration Testing',
+        'Test Automation'
+      ]
+    },
+    {
+      title: 'Core CS',
+      skills: [
+        'Object-Oriented Programming',
+        'Data Structures & Algorithms'
+      ]
+    },
+    {
+      title: 'Frontend',
+      skills: [
+        'HTML5',
+        'CSS3',
+        'Angular',
+        'React',
+        'TypeScript',
+        'Streamlit',
+        'Responsive UI Design'
+      ]
+    },
+    {
+      title: 'AI/ML Integration',
       skills: [
         'Large Language Models (Watsonx.ai, Hugging Face, OpenAI, Google Gemini)',
-        'Prompt Engineering & Response Grounding',
         'Retrieval-Augmented Generation (RAG)',
-        'Agentic AI Systems', 
-        'LangChain', 
+        'Agentic AI',         
         'Multi-Agent Orchestration',
         'Virtual Agents, Chatbots, Q&A Systems',
-        'Embeddings, Chunking & Metadata Design'
-      ]
-    },
-    {
-      title: 'AI & ML Foundations',
-      skills: [
+        'Prompt Engineering',
+        'LangChain', 
+        'Embeddings, Chunking & Metadata Design',
         'Natural Language Processing (NLP)', 
         'Machine Learning',
         'Deep Learning',
-        'LLMs in Production Systems', 
-        'RAG Pipelines', 
-        'Semantic Retrieval'
-      ]
+        ]
     },
     {
-      title: 'Cloud, DevOps & AI Infrastructure',
+      title: 'Security & Quality',
       skills: [
-        'IBM Cloud',
-        'Cloud Object Storage',
-        'CI/CD Pipelines (Jenkins, Tekton, Cirrus)',
-        'Secrets Management',
-        'OpenShift',
-        'Security Scanning (Twistlock, Mend)',
-        'Automation & Monitoring (Shell Scripting)',
-        'Production-grade AI System Practices'
-      ]
-    },
-    {
-      title: 'Developer Tools & Workflow',
-      skills: [
-        'Flask',
-        'Streamlit',
-        'Angular',
-        'Git & GitHub',
-        'Docker',
-        'Postman',
-        'VS Code',
-        'Jupyter Notebooks',
-        'Linux'
+        'Mend',
+        'Twistlock',
+        'ITSS-compliant Pipelines',
+        'Security Scanning',
+        'Performance Optimization'
       ]
     },
     {
@@ -80,9 +102,14 @@ export default function Skills() {
         'Agile Delivery',
         'Technical Leadership', 
         'Mentorship',
+        'Application Monitoring and Production Support', 
+        'Root Cause Analysis', 
+        'Incident Resolution', 
+        'Debugging', 
+        'Requirement Analysis', 
+        'POC Development',
         'Cross-functional Collaboration',
-        'Executive Communication',
-        'AI Solution Ownership'
+        'Executive Communication'
       ]
     }
   ];

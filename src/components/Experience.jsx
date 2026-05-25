@@ -150,7 +150,7 @@ const Experience = () => {
               </div>
               <ul className="text-white-50 small" style={{ lineHeight: '1.8' }}>
                 <li>Built Excel-driven <strong className="text-white">batch automation for Sales role creation,</strong> reducing processing time from minutes per role to minutes for hundreds of roles (99% time reduction). Project <strong className="text-white">won 2nd Place in 1Q25 Client Advocacy Awards.</strong></li>
-                <li>Developed <strong className="text-white">full-stack user-centric web applications </strong> with clear, context-aware exception handling, reducing user errors by 30% and improving overall UX with dynamic UIs (Angular) and backend APIs (PHP Laravel).</li>
+                <li>Developed, unit tested, deployed, and maintained <strong className="text-white">full-stack user-centric web applications </strong> with clear, context-aware exception handling, reducing user errors by 30% and improving overall UX with dynamic UIs (Angular) and backend APIs (PHP Laravel).</li>
                 <li>Implemented <strong className="text-white">Database Operations and Schema Management</strong> (IBM Db2) with optimized SQL queries.</li>
                 <li>Collaborated in <strong className="text-white">Agile workflows </strong>with cross-functional teams through sprint planning, stand-ups, and code reviews.</li>
               </ul>

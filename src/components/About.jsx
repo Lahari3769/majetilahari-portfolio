@@ -30,22 +30,18 @@ export default function About() {
             </h2>
 
             <p className="fs-5 text-white-50">
-               I’m a software developer with hands-on experience building
-              <strong> backend-heavy, production-ready Generative AI systems </strong>
-               in enterprise environments.
+               Software Developer with 3+ years of experience at IBM, building and deploying production-grade end-to-end
+               web applications, GenAI, RAG, and AI-driven systems on cloud infrastructure.
             </p>
 
             <p className="fs-5 text-white-50">
-              My work spans <strong>RAG architectures, LLM orchestration, Agentic AI Systems, Vector databases,
-              CI/CD pipelines, and containerized deployments</strong> on cloud platforms.
-              I enjoy solving problems that sit at the intersection of
-              system design, developer productivity, and applied AI.
+              Proven ability to automate large-
+              scale workflows, debug complex production issues, perform incident resolution and root cause analysis, develop
+              proof-of-concept (POC) solutions, improve system reliability, and deliver measurable business impact.
             </p>
 
             <p className="fs-5 text-white-50 mb-0">
-              I’m particularly interested in roles where I can build scalable systems,
-              work close to infrastructure, and apply Generative AI in ways that are
-              reliable, measurable, and impactful in the real world.
+              Experienced in leading teams, mentoring engineers, and collaborating across product, design and infrastructure functions.
             </p>
           </div>
 
