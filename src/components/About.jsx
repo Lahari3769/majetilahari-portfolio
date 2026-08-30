@@ -30,14 +30,14 @@ export default function About() {
             </h2>
 
             <p className="fs-5 text-white-50">
-               Software Developer with 3+ years of experience at IBM, building and deploying production-grade end-to-end
-               web applications, GenAI, RAG, and AI-driven systems on cloud infrastructure.
+              GenAI & Full Stack Software Developer with 3+ years of experience at IBM, building and deploying
+              production-grade end-to-end GenAI, RAG, AI-driven systems and full stack web applications on cloud infrastructure.
             </p>
 
             <p className="fs-5 text-white-50">
-              Proven ability to automate large-
-              scale workflows, debug complex production issues, perform incident resolution and root cause analysis, develop
-              proof-of-concept (POC) solutions, improve system reliability, and deliver measurable business impact.
+              Proven ability to automate large-scale workflows, debug complex production issues, perform incident resolution
+              and root cause analysis, develop proof-of-concept (POC) solutions, improve system reliability, and deliver
+              measurable business impact.
             </p>
 
             <p className="fs-5 text-white-50 mb-0">

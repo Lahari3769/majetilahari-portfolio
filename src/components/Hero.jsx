@@ -28,20 +28,20 @@ export default function Hero() {
             </h2>
 
             <h5 className="text-light mt-2">
-              Software Developer
-              <span style={{ color: '#0BC1C4' }}> • Generative AI & Cloud Systems</span>
+              GenAI & Full Stack Software Developer
+              <span style={{ color: '#0BC1C4' }}> • Cloud Systems</span>
             </h5>
 
             <p className="text-white mt-4 fs-5">
-              I design, build and deploy <strong>Production-grade AI and full stack applications</strong> — from 
-              RAG pipelines and Agentic AI workflows to cloud deployments with CI/CD automation. My focus is on reliable, scalable, 
+              I build and deploy <strong>production-grade GenAI, RAG, Agentic AI and full stack applications</strong> — from
+              LLM-powered pipelines and Agentic workflows to cloud deployments with CI/CD automation. My focus is on reliable, scalable,
               and impactful AI solutions that improve operational efficiency and developer productivity in enterprise environments.
             </p>
 
             {/* Social Icons */}
             <div className="social-icons mt-3 d-flex justify-content-center justify-content-md-start gap-3">
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/majetilahari"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -49,7 +49,7 @@ export default function Hero() {
                 <FaLinkedinIn />
               </a>
               <a
-                href="https://github.com/"
+                href="https://github.com/Lahari3769"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -71,7 +71,7 @@ export default function Hero() {
               </button>
 
               <a
-                href="/resume.pdf"
+                href="/Resume-Lahari.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn rounded-pill px-4 py-2 border border-info text-info zoom-click"
@@ -106,7 +106,7 @@ export default function Hero() {
               </button>
 
               <a
-                href="/resume.pdf"
+                href="/Resume-Lahari.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn rounded-pill px-4 py-2 border border-info text-info zoom-click"

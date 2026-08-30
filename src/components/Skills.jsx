@@ -16,6 +16,7 @@ export default function Skills() {
         'Python',
         'Flask',
         'LangChain',
+        'Langraph',
         'FastAPI',
         'PHP (Laravel)',
         'RESTful APIs'

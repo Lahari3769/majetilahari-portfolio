@@ -15,6 +15,7 @@ import McqGenerator from './pages/case-studies/McqGenerator';
 import ProjectModulesBot from './pages/case-studies/ProjectModulesBot';
 import SupportingGenAIProjects from './pages/case-studies/SupportingGenAIProjects';
 import MyPortfolioAssistant from './pages/case-studies/MyPortfolioAssistant';
+import ShiftHandoverAgent from './pages/case-studies/ShiftHandoverAgent';
 
 // ✅ Chatbot
 // import ChatWidget from './chatbot/frontend/ChatWidget';
@@ -50,6 +51,11 @@ function App() {
         <Route
           path="/case-studies/project-modules-bot"
           element={<ProjectModulesBot />}
+        />
+
+        <Route
+          path="/case-studies/shift-handover-agent"
+          element={<ShiftHandoverAgent />}
         />
 
         <Route

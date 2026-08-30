@@ -23,21 +23,15 @@ const Experience = () => {
 
         <div className="row justify-content-center mb-5" data-aos="fade-up">
           <div className="col-md-10">
-            <div className="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 p-4 rounded" 
-                 style={{ 
-                   background: 'rgba(11, 193, 196, 0.05)', 
-                   border: '1px solid rgba(11, 193, 196, 0.3)' 
+            <div className="d-flex justify-content-center align-items-center p-4 rounded"
+                 style={{
+                   background: 'rgba(11, 193, 196, 0.05)',
+                   border: '1px solid rgba(11, 193, 196, 0.3)'
                  }}>
               <div className="text-center">
                 <FaCode className="mb-2" style={{ fontSize: '2rem', color: '#0BC1C4' }} />
-                <div className="fw-bold text-white">Software Developer</div>
-                <small className="text-white-50">Jan 2023 - Apr 2025</small>
-              </div>
-              <div className="text-white-50 d-none d-md-block" style={{ fontSize: '1.5rem' }}>→</div>
-              <div className="text-center">
-                <FaServer className="mb-2" style={{ fontSize: '2rem', color: '#0BC1C4' }} />
-                <div className="fw-bold text-white">Software Developer (DevOps)</div>
-                <small className="text-white-50">Apr 2025 - Present</small>
+                <div className="fw-bold text-white">Full Stack Software Developer</div>
+                <small className="text-white-50">Jan 2023 – Present</small>
               </div>
             </div>
           </div>
@@ -104,13 +98,12 @@ const Experience = () => {
                 <h5 className="fw-bold text-white mb-0">AI Development</h5>
               </div>
               <ul className="text-white-50 small" style={{ lineHeight: '1.8' }}>
-                <li>Designed and deployed a RAG-based production <strong className="text-white">Project Modules Q&A Chatbot</strong> on IBM Cloud using Flask, Docker, Jenkins CI/CD, and Milvus vector search integrated with Watsonx.ai LLMs, enabling instant access to 100% of project documentation and reducing manual data retrieval by 90%.</li>
-                <li>Led an 11-member team to build a <strong className="text-white">Judges’ Award–winning multi-agent LLM system, Developer’s Genie</strong> at IBM Developers Jumpstart, that enables conversational understanding, summarization, and comparison of evolving technical specifications and codebases across multiple versions, reducing manual code review effort by 60% and accelerating approval cycles.</li>
-                <li>Created <strong className="text-white">SRE Support Bot,</strong> a semantic-search-enabled chatbot that ingests runbooks and operational procedures, enabling SREs to query troubleshooting knowledge conversationally and accelerating incident response times by 40%.</li>
-                <li>Built an AI-assisted <strong className="text-white">Incident Management & Resolution Intelligence Platform,</strong> leveraging historical data to suggest probable root causes and fixes, improving resolution efficiency by 25%.</li>
-                <li>Developed <strong className="text-white">Run Status Bot,</strong> a natural-language chatbot that dynamically queries IBM Db2 to retrieve structured run-status data and uses LLMs to generate human-readable system health summaries for operational teams.</li>
-                <li>Engineered a prompt-driven <strong className="text-white">LLM-Based Test Case Generator</strong> to auto-generate unit and integration test cases, increasing test coverage by 30% and reducing manual QA effort.</li>
-
+                 <li>Led an 11-member team to build the <strong className="text-white">Judges' Award–winning Developer's Genie</strong> (IBM Developers Jumpstart) — an Agentic AI developer copilot using IBM Granite, LLM-powered code analysis, and Graphviz; reduced manual code-analysis effort by 60%, cutting hours of work to minutes.</li>
+                 <li>Led a 6-member team architecting an <strong className="text-white">AI-driven DevOps Shift Handover Automation Agent</strong> using IBM Watsonx Orchestrate, Python/FastAPI, ServiceNow, Box OAuth2, and Outlook — cutting handover preparation from 15–30 minutes to under 1 minute, saving 250+ hours annually.</li>
+                 <li>Built and deployed an end-to-end IBM Watsonx-powered, <strong className="text-white">RAG-based Project Modules Q&A Chatbot</strong> using Flask, Milvus, Docker, and Jenkins CI/CD — grounding LLM responses in 100% of project documentation and reducing manual information retrieval by 90%.</li>
+                 <li>Built an AI-assisted <strong className="text-white">Incident Management & Resolution Intelligence Platform</strong> using LLMs, embeddings, and vector search to surface similar issues and generate remediation recommendations, improving resolution efficiency by 40%.</li>
+                 <li>Developed <strong className="text-white">Run Status Bot,</strong> a natural-language chatbot that dynamically queries IBM Db2 and uses LLMs to generate human-readable system health summaries for operational teams.</li>
+                 <li>Engineered a <strong className="text-white">Prompt-Driven Test Case Automation Framework</strong> that analyses application code and generates context-aware unit and integration test cases, improving test coverage by 30% and reducing manual QA effort.</li>
               </ul>
             </div>
           </div>

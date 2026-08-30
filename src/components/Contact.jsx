@@ -73,10 +73,10 @@ export default function Contact() {
             📧 <strong>Email:</strong>
           </p>
           <a
-            href="mailto:laharimajeti2002@gmail.com"
+            href="mailto:laharimajeti@gmail.com"
             className="text-info fw-bold text-decoration-none"
           >
-            laharimajeti2002@gmail.com
+            laharimajeti@gmail.com
           </a>
         </div>
 
@@ -134,7 +134,7 @@ export default function Contact() {
       {/* Resume Button */}
       <div className="mt-4  text-center">
         <a
-          href="/resume.pdf"
+          href="/Resume-Lahari.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-outline-info px-4 py-2 zoom-click"

@@ -26,6 +26,14 @@ const projects = [
     route: '/case-studies/project-modules-bot'
   },
   {
+    title: 'AI-Driven DevOps Shift Handover Automation Agent',
+    tech: 'IBM Watsonx Orchestrate, Python, FastAPI, ServiceNow, Box OAuth2, Outlook, Agentic AI',
+    desc:
+      'An Agentic AI system that automates DevOps shift handovers by integrating incident triage, cloud payment status aggregation, operational reports, and automated email generation into a single workflow — cutting handover preparation from 15–30 minutes to under 1 minute and saving 250+ hours annually.',
+    deepDive: true,
+    route: '/case-studies/shift-handover-agent'
+  },
+  {
     title: "My Portfolio Assistant",
     tech: 'React, Flask, LangChain, Llama 3.1, ChromaDB, Sentence Transformers, RAG',
     desc: 'My digital companion, an AI-powered chatbot integrated into my portfolio that provides instant answers about my projects, skills, and professional experience using retrieval-augmented generation (RAG) and local LLM inference.',
